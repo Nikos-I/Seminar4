@@ -4,14 +4,10 @@ import java.util.Random;
 
 public class AssaultShield extends Shield{
     int pointOfDamage;
+    protected String nameShield;
 
     public AssaultShield(int pointOfDefence) {
-        super(pointOfDefence);
-    }
-
-    @Override
-    public String toString() {
-        return String.format("Щит: защита = %d, урон = %d", pointOfDefence, pointOfDamage);
+        super(pointOfDefence, "Штурмовой");
     }
 
     public int damage() {

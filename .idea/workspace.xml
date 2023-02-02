@@ -4,24 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490aa6e6-ed89-4c01-9f2e-e364bee9dc06" name="Changes" comment="Seminar4 Init">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shields/AssaultShield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shields/DefensiveShield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shields/PrivatesShield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shields/Shield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swordman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Weaponable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Weapons/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Weapons/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Weapons/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/s4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sem4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="490aa6e6-ed89-4c01-9f2e-e364bee9dc06" name="Changes" comment="Seminar4 Shield">
+      <change afterPath="$PROJECT_DIR$/src/Shields/ShieldBearing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shields/AssaultShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shields/AssaultShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shields/DefensiveShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shields/DefensiveShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shields/PrivatesShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shields/PrivatesShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shields/Shield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shields/Shield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swordman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swordman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -109,6 +114,8 @@
       <workItem from="1675175405158" duration="3256000" />
       <workItem from="1675257213448" duration="6182000" />
       <workItem from="1675278329300" duration="564000" />
+      <workItem from="1675279250726" duration="678000" />
+      <workItem from="1675332882640" duration="5651000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar4 Init">
       <created>1675175185196</created>
@@ -117,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675175185196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Seminar4 Shield">
+      <created>1675279450808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675279450808</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Seminar4 Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seminar4 Init" />
+    <MESSAGE value="Seminar4 Shield" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seminar4 Shield" />
   </component>
 </project>

@@ -24,4 +24,14 @@ public class Team <E extends Warrior> implements Iterable<E>{
         }
         return maxRange;
     }
+
+    public int minShieldsPoint() {
+        int minShields = 10000;
+        for (E item: team) {
+            if (item.getShield().getPointOfDefence() < minShields) {
+                minShields = item.getShield().getPointOfDefence();
+            }
+        }
+        return minShields;
+    }
 }
